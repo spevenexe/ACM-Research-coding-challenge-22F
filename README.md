@@ -1,7 +1,7 @@
 # ACM Research Coding Challenge (Fall 2022) - CarsForSale
 
 ## Problem
-I attempted to sort each car trait based on how they affected the price. String-type variable columns besides the 'Price' column were not included, as I could not properly sort them.
+I attempted to sort each car trait based on how they affected the price. String-type variable columns besides the 'Price' column were not included, as I could not properly sort them (my attempt at hot-encoding failed).
 
 ## Solution
 I first imported the data using a Kaggle notebook. Using a pandas Dataframe made from the csv, I converted the 'Price' column from string to int. Then, I separated the 'Price' column from the Dataframe and removed any 'Not Priced' variables, replacing them with the average of the prices. Using each column of the matrix as *x* values and the prices as *y* values, I performed linear regression to see which one affected the price. The ouput is here below:
