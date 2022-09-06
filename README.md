@@ -23,4 +23,4 @@ Most influential factors on price:
 # 13 :	 MinMPG               	 0.0000
 ```
 
-According to my solution, none of these variables seem to correlate with price.
+According to my solution, none of these variables seem to correlate significantly with price.
